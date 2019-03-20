@@ -1,0 +1,52 @@
+{
+package main
+// pigeon ./parse.peg | goimports | less > parse.go
+}
+
+Expression = a:Term b:(_ [+-] _ Term)* {
+  left,ok := a.(int)
+  if !ok {
+    return nil, fmt.Errorf("not valid of %v", a)
+  }
+  r := left
+  if rights, ok := b.([]interface{}); ok {
+    for _,right := range rights {
+      // len(right) == 4
+      right0 := right.([]interface{})
+      switch(string(right0[1].([]byte))){
+        case "+": r = r+right0[3].(int)
+        case "-" : r = r - right0[3].(int)
+       }
+    }
+  }
+  return r,nil
+}
+
+Term = a:Factor b:(_ [*/] _ Factor)* {
+  left,ok := a.(int)
+  if !ok {
+    return nil, fmt.Errorf("not valid of %v", a)
+  }
+  r := left
+  if rights, ok := b.([]interface{}); ok {
+    for _,right := range rights {
+      // len(right) == 4
+      right0 := right.([]interface{})
+      switch(string(right0[1].([]byte))){
+        case "/": r = r/right0[3].(int)
+        case "*" : r = r * right0[3].(int)
+       }
+    }
+  }
+  return r,nil
+}
+
+Factor = "(" _ expr:Expression _ ")" {
+  return expr.(int),nil
+} / Integer
+
+Integer = _[0-9]+ {
+  return strconv.Atoi(string(c.text))
+}
+_ = [ \t]*
+EndOfFile = !.
