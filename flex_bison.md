@@ -6,6 +6,8 @@
 [gml] https://github.com/graphitemaster/gml
 [8cc] https://github.com/rui314/8cc
 
+[Python Left-Right Parser] https://github.com/transceptor-technology/pyleri
+
 [mna/pigeon] https://github.com/mna/pigeon
 > [ini] https://github.com/knq/ini
 
