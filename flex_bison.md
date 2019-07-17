@@ -2,6 +2,8 @@
 
 # Parser
 
+[透过 JSONPath 学 yacc ] https://github.com/kennknowles/python-jsonpath-rw/blob/master/jsonpath_rw/lexer.py
+
 [simple-interpreter] https://github.com/bbu/simple-interpreter
 [gml] https://github.com/graphitemaster/gml
 [8cc] https://github.com/rui314/8cc
