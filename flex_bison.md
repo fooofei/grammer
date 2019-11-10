@@ -2,6 +2,8 @@
 
 # Parser
 
+[golang][flex-compatible lexical analyser generator] https://github.com/kivikakk/golex
+
 [透过 JSONPath 学 yacc ] https://github.com/kennknowles/python-jsonpath-rw/blob/master/jsonpath_rw/lexer.py
 
 [simple-interpreter] https://github.com/bbu/simple-interpreter
@@ -50,4 +52,4 @@
 
 [A type deaf ini parser written with flex and bison] https://github.com/matutter/libini
 
-[Lexer for Go ] https://github.com/blynn/nex  http://www-cs-students.stanford.edu/~blynn//nex/
+[golang][Lexer for Go ] https://github.com/blynn/nex  http://www-cs-students.stanford.edu/~blynn//nex/
