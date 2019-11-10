@@ -2,7 +2,7 @@
 
 # Parser
 
-[golang][flex-compatible lexical analyser generator] https://github.com/kivikakk/golex
+[golang][flex-compatible lexical analyser generator][不对胃口 使用 regexp 实现的 不是状态转移矩阵] https://github.com/kivikakk/golex
 
 [透过 JSONPath 学 yacc ] https://github.com/kennknowles/python-jsonpath-rw/blob/master/jsonpath_rw/lexer.py
 
