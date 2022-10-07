@@ -13,7 +13,7 @@
 [Python Left-Right Parser] https://github.com/transceptor-technology/pyleri
 
 [mna/pigeon] https://github.com/mna/pigeon
-> [ini] https://github.com/knq/ini
+[ini] https://github.com/knq/ini
 
 [Grammar Tips] https://github.com/xored/peg/blob/master/docs/grammar-tips.md
 [chaosim/peasy] https://github.com/chaosim/peasy
@@ -53,3 +53,5 @@
 [A type deaf ini parser written with flex and bison] https://github.com/matutter/libini
 
 [golang][Lexer for Go ] https://github.com/blynn/nex  http://www-cs-students.stanford.edu/~blynn//nex/
+
+[20221007备忘] https://github.com/lisael/fastidious  https://github.com/Geal/nomfun
