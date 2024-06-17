@@ -1,5 +1,9 @@
 
 
+# lexer
+
+代码量比较小，阅读合适 [eigenhombre/lexutil: Go's Template lexer extracted as a stand-alone module](https://github.com/eigenhombre/lexutil)
+
 # Parser
 
 [golang][flex-compatible lexical analyser generator][不对胃口 使用 regexp 实现的 不是状态转移矩阵] https://github.com/kivikakk/golex
