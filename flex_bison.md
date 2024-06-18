@@ -3,7 +3,10 @@
 # lexer
 
 代码量比较小，阅读合适 eigenhombre/lexutil: Go's Template lexer extracted as a stand-alone module https://github.com/eigenhombre/lexutil
+
 2年不更新了 https://github.com/timtadh/lexmachine/tree/master
+
+nex 生成 https://github.com/blynn/nex
 
 # Parser
 
