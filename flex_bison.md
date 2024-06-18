@@ -8,6 +8,8 @@
 
 nex 生成 https://github.com/blynn/nex
 
+rust 语言的 lexer 生成工具 https://github.com/maciejhirsz/logos
+
 # Parser
 
 [golang][flex-compatible lexical analyser generator][不对胃口 使用 regexp 实现的 不是状态转移矩阵] https://github.com/kivikakk/golex
