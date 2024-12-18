@@ -65,3 +65,5 @@ rust 语言的 lexer 生成工具 https://github.com/maciejhirsz/logos
 [golang][Lexer for Go ] https://github.com/blynn/nex  http://www-cs-students.stanford.edu/~blynn//nex/
 
 [20221007备忘] https://github.com/lisael/fastidious  https://github.com/Geal/nomfun
+
+[Parser Generator for LR(1) and LALR] https://github.com/skywind3000/LIBLR
